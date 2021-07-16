@@ -11,7 +11,7 @@ if HEROKU:
     API_HASH = environ["API_HASH"]
     SESSION_STRING = environ["SESSION_STRING"]  # Check Readme for session
     ARQ_API_KEY = environ["ARQ_API_KEY"]
-    CHAT_ID = int(environ["1001457939509"])
+    CHAT_ID = int(environ["CHAT_ID"])
     DEFAULT_SERVICE = environ.get("DEFAULT_SERVICE") or "youtube"
 
 # NOTE Fill this if you are not deploying on heroku.
